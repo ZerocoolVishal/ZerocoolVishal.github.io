@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: #a6a7a8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.earth-img {
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid #a6a7a8;
+    text-align: center;
+    padding: 30px;
+}
+
+#img-home:hover {
+    content:url(/images/mars.png);
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 720px;
+    height: 100%;
+}
+
+.table {
+    border: 1px solid #a6a7a8;
+    padding: 10px;
+    width: 100%;
+    background-color: #a6a7a8;
+    color: black;
+}
+
+td { 
+    border: 1px solid #a6a7a8;
+    padding: 20px;
+    background-color: black;
+    color: #a6a7a8;
+}
+
+a {
+    color: #a6a7a8
+}
+
+input {
+    background: black;
+    color: #a6a7a8;
+    padding: 10px;
+    margin-top: 5px;
+    width: 200px;
+}
+
+textarea {
+    background: black;
+    color: #a6a7a8;
+    padding: 10px;
+    margin-top: 5px;
+    width: 200px
+}
+
+.btn {
+    width: "200px";
+}
+
+.btn :hover {
+    color: #a6a7a8
+}
+
+.contact {
+    border: 1px solid #a6a7a8;
+    padding: 30px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.scroll {
+    overflow-x: scroll;
+}
+
+.tag {
+    border: 1px solid #a6a7a8;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: #a6a7a8;
+}

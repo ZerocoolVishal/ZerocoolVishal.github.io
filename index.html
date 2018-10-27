@@ -1,58 +1,135 @@
-<!DOCTYPE HTML>
 <!--
-	Identity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Author: Vishal V. Bhosle.
+    Date: Saturday, 27 October 2018 (IST).
 -->
-<html>
-	<head>
-		<title>Vishal Bhosle</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-loading">
-
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-							<h1>Vishal Bhosle</h1>
-							<p></p>
-						</header>
-
-						<footer>
-							<ul class="icons">
-								<li>
-									<address>
-										<a href="mailto:developer.vishalbhosle@gmail.com" class="fa fa-envelope">Email</a>
-									</address>
-								</li>
-								<li><a href="https://github.com/ZerocoolVishal" class="fa fa-github">GitHub</a></li>
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; 2017 Vishal Bhosle</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vishal Bhosle</title>
+    <link rel="icon" href="images/ico.png" type="image/gif">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="earth-img">
+            <h1 style="margin-bottom: 0px">Vishal Bhosle</h1>
+            <p>Software Developer</p>
+            <p>From: <b>Earth</b>, Orion Arm, Milky Way.</p>
+            <img id="img-home" width="200px" src="images/earth.png">
+            <h2>projects</h2>
+            <div class="scroll">
+                <table class="table">
+                    <tr>
+                        <th>sr no.</th>
+                        <th>company</th>
+                        <th>project</th>
+                        <th>link</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>VES</td>
+                        <td>Companies Website</td>
+                        <td><a href="https://www.vesolutions.in/" target="_blank">vesolutions.in</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>simplerewards</td>
+                        <td>Companies Website</td>
+                        <td><a href="http://www.simplirewards.com/" target="_blank">simplirewards.com</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>codersplays</td>
+                        <td>blog</td>
+                        <td><a href="https://codersplays.com/" target="_blank">codersplays.com</a></td>
+                    </tr>
+            </table>
+            </div>
+            <h2>skills</h2>
+            <div class="contact">
+                <button class="tag">HTML</button>
+                <button class="tag">CSS</button>
+                <button class="tag">JS</button>
+                <button class="tag">PHP</button>
+                <button class="tag">Yii 2 Framework</button>
+                <button class="tag">Java</button>
+                <button class="tag">Java Enterprise Edition</button>
+            </div>
+            <h2>Education</h2>
+            <div class="scroll">
+                    <table class="table">
+                        <tr>
+                            <th>sr no.</th>
+                            <th>company</th>
+                            <th>bloard / university</th>
+                            <th>year</th>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>B.Tech Computer Science & Technology</td>
+                            <td>Shivaji University</td>
+                            <td>~2020</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Diploma in Computer Engineering</td>
+                            <td>MSBTE</td>
+                            <td>2017</td>
+                        </tr>
+                </table>
+                </div>
+            <div class="contact">
+                <h2>Contact</h2>
+                <div class="form">
+                    <form>
+                        <input type="text" placeholder="name"><br>
+                        <input type="email" placeholder="email"><br>
+                        <input style="width: 30px;" max="4" value="+91">
+                        <input type="number" style="width: 135px;" max="10" placeholder="mobile"><br>
+                        <textarea placeholder="message"></textarea><br>
+                        <input class="btn" type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+            <div class="scroll">
+                <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>profile</th>
+                            <th>username</th>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-linkedin-in"></i></td>
+                            <td>linkedin</td>
+                            <td><a href="https://www.linkedin.com/in/vishal-bhosle/" target="_blank">@vishalvbhosle</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-github"></i></td>
+                            <td>github</td>
+                            <td><a href="https://github.com/ZerocoolVishal" target="_blank">@zerocoolvishal</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-twitter"></i></td>
+                            <td>twitter</td>
+                            <td><a href="https://twitter.com/VishalVBhosle" target="_blank">@vishalvbhosle</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-instagram"></i></td>
+                            <td>instagram</td>
+                            <td><a href="https://www.instagram.com/vishalvbhosle/" target="_blank">@vishalvbhosle</a></td>
+                        </tr>
+                </table>
+            </div>
+            <div class="footer">
+                Vishal V. Bhosle
+            </div>
+        </div>
+    </div>
+</body>
 </html>
