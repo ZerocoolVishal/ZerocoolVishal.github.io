@@ -6,6 +6,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128954847-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128954847-1');
+    </script>
     <link rel="manifest" href="manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -22,6 +31,12 @@
             <p>Software Developer</p>
             <p>From: <b>Earth</b>, Orion Arm, Milky Way.</p>
             <img id="img-home" width="200px" src="images/earth.png">
+
+            <h2>About</h2>
+            <p>
+                Hi 😀 My name is Vishal V. Bhosle, I'm a self-taught software developer from Mumbai. I'm currently studying Computer Science and Technology at Shivaji University, Kolhapur.
+            </p>
+
             <h2>Projects</h2>
             <div class="scroll">
                 <table class="table">
@@ -88,11 +103,10 @@
                 <h2>Contact</h2>
                 <div class="form">
                     <form>
-                        <input type="text" placeholder="name"><br>
-                        <input type="email" placeholder="email"><br>
-                        <input style="width: 30px;" max="4" value="+91">
-                        <input type="number" style="width: 135px;" max="10" placeholder="mobile"><br>
-                        <textarea placeholder="message"></textarea><br>
+                        <input type="text" required placeholder="name"><br>
+                        <input type="email" required placeholder="email"><br>
+                        <input type="number" placeholder="mobile"><br>
+                        <textarea required placeholder="message"></textarea><br>
                         <input class="btn" type="submit" value="Send">
                     </form>
                 </div>

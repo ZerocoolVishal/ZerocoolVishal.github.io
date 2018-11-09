@@ -47,7 +47,8 @@ input {
     color: #a6a7a8;
     padding: 10px;
     margin-top: 5px;
-    width: 200px;
+    width: 250px;
+    border-style:dotted;
 }
 
 textarea {
@@ -55,11 +56,13 @@ textarea {
     color: #a6a7a8;
     padding: 10px;
     margin-top: 5px;
-    width: 200px
+    width: 250px;
+    height: 160px;
+    border-style:dotted;
 }
 
 .btn {
-    width: "200px";
+    max-width: "100px";
 }
 
 .btn :hover {
@@ -68,7 +71,8 @@ textarea {
 
 .contact {
     border: 1px solid #a6a7a8;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer {
